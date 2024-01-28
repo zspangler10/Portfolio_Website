@@ -12,7 +12,7 @@ import {
     Link,
     Button
 } from '@chakra-ui/react';
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal';
 import Card from '../generics/Card';
 
 interface ProjectCardProps {
@@ -28,7 +28,7 @@ interface ProjectCardProps {
 
 const ProjectCard: FC<ProjectCardProps> = (props) => {
     return (
-        <Fade bottom duration={500}>
+        <Fade direction="up" duration={500}>
             <Card 
                 maxW={'325px'}
                 w={'full'}
