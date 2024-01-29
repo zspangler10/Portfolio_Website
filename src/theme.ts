@@ -25,6 +25,6 @@ const customTheme = extendTheme({
     }
 })
 
-const theme = extendTheme(config, customTheme)
+const theme = extendTheme(customTheme, config)
 
 export default theme
