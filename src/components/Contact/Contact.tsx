@@ -38,7 +38,7 @@ const Contact: FC = () => {
                                 </Container>
                                 <Spacer />
                                 <Container w='50%'>
-                                    <Link href="www.linkedin.com/in/zach-spangler-pmp">
+                                    <Link href="https://www.linkedin.com/in/zach-spangler-pmp">
                                         <Badge colorScheme='blue'>LinkedIn</Badge>
                                         <Text textDecoration={'underline'}>Zach Spangler</Text>
                                     </Link>

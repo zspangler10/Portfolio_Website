@@ -15,7 +15,7 @@ const Socials: FC<SocialsProps> = (props) => {
         {
             aria: 'Linkedin',
             icon: <FiLinkedin />,
-            href: 'www.linkedin.com/in/zach-spangler-pmp'
+            href: 'https://www.linkedin.com/in/zach-spangler-pmp'
         },
         {
             aria: 'Email',
